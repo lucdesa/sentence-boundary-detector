@@ -1,0 +1,63 @@
+os: ubuntu
+package: python2.5, java1.6.0, jython2.2.1
+
+./file extensions
+.arff		    : WEKA 학습용 파일
+.dict		    : 확률사전 정보 파일
+.maxent		    : MAXENT 학습용 파일
+.model		    : 학습된 모델 바이너리
+.out		    : 결과 출력파일
+.py		    : 파이썬 스크립트
+.raw		    : 임시파일
+.raws		    : 사전을 만들기 위한 임시파일
+.sh		    : 배시용 스크립트
+.txt		    : 테스트파일
+
+./directory
+*corpus		    : 학습에 사용될 말뭉치
+ |--pentree	    : 영문 Pentree 말뭉치
+ |--sejong	    : 한글 세종계획 구문분석결과를 문장단위로 저장해둔 폴더 - 실제 실험에 사용한 말뭉치
+ ㄴ-sejong-tagged   : 한글 세종계획 형태소분석결과를 파일명을 숫자로 일괄변환하여 저장한 폴더 - 실험에는 사용하지 않았음
+*dict		    : 말뭉치를 통해 추출된 확률기반의 사전
+ |--eng		    : 영문용 문장경계 인식 확률 사전
+ ㄴ-kor		    : 한글용 문장경계 인식 확률 사전
+*sbd		    : 프로그램 소스
+ |--core	    : 문장경계 인식을 위한 코어 소스
+ |--detector	    : 확률 및 휴리스틱 문장경계 인식기
+ |--util	    : 기타 유틸리티
+ ㄴ-weka	    : WEKA용 Jython 모듈
+*maxent		    : MaxEnt용 폴더
+*model		    : 학습된 모델
+*tenfolds	    : 10폴드 실험을 위한 복사된 코퍼스
+ |--pentree	    : Pentree 말뭉치
+ ㄴ-sejong	    : Sejong 말뭉치
+*tool		    : 관련 도구
+*weka		    : WEKA용 폴더
+*temp		    : 임시폴더
+
+./sh
+*build-dict.sh	    : Builder와 uniq, sort 등을 이용해서 dict/*.raws -> dict/*.dict로 변환
+*build-instance.sh  : 학습파일을 생성하는 스크립트 { weka, maxent }
+*build-model.sh	    : 모델을 학습하는 스크립트 { weka-j48, maxent }
+*build-model-all.sh : 모든 모델을 학습하는 스크립트
+*build-tenfolds.sh  : 10폴드 실험을 위하여 원본 코퍼스를 학습용과 검증용으로 분리하는 스크립트
+*conversion.sh	    : tool/Conversion 수행스크립트 : 세종구문분석 코퍼스에서 특수문자 필터링과 문장추출
+*eval-tenfolds.sh   : 10폴드 학습/검증을 위한 스크립트 (10폴드 학습파일은 build-tenfolds.sh를 통해서 수행할 수 있다)
+?prob-sbd-eval.sh   : weka로 생성된 모델을 이용하여 검증하기 위해서 jython의 결과와 학습파일의 결과를 비교
+
+*rule-sbd-debug.sh  : RuleBasedSBD.py를 이용하여 디버깅하는 쉘
+*rule-sbd-eval.sh   : RuleBasedSBD.py를 이용하여 10folds 검증
+dist.sh		    : maxent 혹은 rule 기반 문장분리기를 상위 폴더에 패키지로 배포
+stat.sh		    : 특정폴더의 변화상태를 알아보는 콘솔용 쉘
+
+./py
+*Tokenizer.py		: 토크나이저
+*Builder.py		: 기본사전 생성기
+*Learner.py		: 학습데이터 생성기
+*Evaluator.py		: evaluation 프로그램 (precision, recall, f-measure)
+*MergeResult.py		: 10폴드 결과의 평균값을 구하는 프로그램
+*RuleBasedSBD.py	: 규칙기반 문장분리기
+*MaxentBasedSBD.py	: maxent용 문장분리기
+*StatExtractor.py	: 통계정보 추출기
+
+

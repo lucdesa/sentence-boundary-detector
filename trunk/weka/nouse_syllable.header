@@ -1,0 +1,20 @@
+@relation SentenceBoundaryDetection
+
+@attribute pos-type {문자,기호,공백,한글,자모,마침표,쉼표,따옴표,묶음표,이음표,드러냄표,안드러냄표,영문자,한자,기타기호,숫자,미지기호}
+@attribute pos-name {한글,자모,영문자,한자,숫자,공백,캐리지리턴,라인피드,온점,물음표,느낌표,반점,가운뎃점,쌍점,빗금,큰따옴표,작은따옴표,소괄호,중괄호,대괄호,줄표,붙임표,물결표,드러냄표,숨김표,빠짐표,줄임표,샾,달러,퍼센트,앰퍼센드,곱하기,더하기,세미콜론,보다작다,같다,보다크다,골벵이,미지기호}
+@attribute prefix-pos-type {문자,기호,공백,한글,자모,마침표,쉼표,따옴표,묶음표,이음표,드러냄표,안드러냄표,영문자,한자,기타기호,숫자,미지기호}
+@attribute prefix-pos-name {한글,자모,영문자,한자,숫자,공백,캐리지리턴,라인피드,온점,물음표,느낌표,반점,가운뎃점,쌍점,빗금,큰따옴표,작은따옴표,소괄호,중괄호,대괄호,줄표,붙임표,물결표,드러냄표,숨김표,빠짐표,줄임표,샾,달러,퍼센트,앰퍼센드,곱하기,더하기,세미콜론,보다작다,같다,보다크다,골벵이,미지기호}
+@attribute suffix-pos-type {문자,기호,공백,한글,자모,마침표,쉼표,따옴표,묶음표,이음표,드러냄표,안드러냄표,영문자,한자,기타기호,숫자,미지기호}
+@attribute suffix-pos-name {한글,자모,영문자,한자,숫자,공백,캐리지리턴,라인피드,온점,물음표,느낌표,반점,가운뎃점,쌍점,빗금,큰따옴표,작은따옴표,소괄호,중괄호,대괄호,줄표,붙임표,물결표,드러냄표,숨김표,빠짐표,줄임표,샾,달러,퍼센트,앰퍼센드,곱하기,더하기,세미콜론,보다작다,같다,보다크다,골벵이,미지기호}
+%attribute prefix-syllable-1-prob numeric
+%attribute suffix-syllable-1-prob numeric
+%attribute merged-syllable-1-prob numeric
+@attribute current-token-prob numeric
+@attribute prefix-token-prob numeric
+@attribute suffix-token-prob numeric
+@attribute current-size numeric
+@attribute prefix-size numeric
+@attribute suffix-size numeric
+@attribute sentence-boundary? {yes,no}
+
+@data

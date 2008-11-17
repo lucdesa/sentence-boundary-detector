@@ -1,0 +1,238 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Common	sbd/util/Util.py	/^class Common:$/;"	c
+Common	sbd/util/Util.py~	/^class Common:$/;"	c
+DecisionTree	sbd/weka/J48.py	/^class DecisionTree:$/;"	c
+Dictionary	sbd/core/Dictionary.py	/^class Dictionary:$/;"	c
+Dictionary	sbd/core/Dictionary.py~	/^class Dictionary:$/;"	c
+Directory	sbd/util/Directory.py	/^class Directory:$/;"	c
+Directory	sbd/util/Directory.py~	/^class Directory:$/;"	c
+Document	sbd/core/Document.py	/^class Document:$/;"	c
+Document	sbd/core/Document.py~	/^class Document:$/;"	c
+Formatter	sbd/util/Util.py	/^class Formatter(object):$/;"	c
+Formatter	sbd/util/Util.py~	/^class Formatter(object):$/;"	c
+Heuristic	sbd/detector/Heuristic.py	/^class Heuristic:$/;"	c
+Heuristic	sbd/detector/Heuristic.py~	/^class Heuristic:$/;"	c
+Logger	sbd/util/Util.py	/^class Logger(object):$/;"	c
+Logger	sbd/util/Util.py~	/^class Logger(object):$/;"	c
+Probabilistic	sbd/detector/Probabilistic.py	/^class Probabilistic:$/;"	c
+Probabilistic	sbd/detector/Probabilistic.py~	/^class Probabilistic:$/;"	c
+Reader	sbd/util/Util.py	/^class Reader(object):$/;"	c
+Reader	sbd/util/Util.py~	/^class Reader(object):$/;"	c
+Token	sbd/core/Token.py	/^class Token():$/;"	c
+Token	sbd/core/Token.py~	/^class Token():$/;"	c
+Tokenizer	sbd/core/Tokenizer.py	/^class Tokenizer:$/;"	c
+Tokenizer	sbd/core/Tokenizer.py~	/^class Tokenizer:$/;"	c
+__init__	sbd/core/Dictionary.py	/^    def __init__(self, path):$/;"	m	class:Dictionary
+__init__	sbd/core/Dictionary.py~	/^    def __init__(self, path):$/;"	m	class:Dictionary
+__init__	sbd/core/Document.py	/^    def __init__(self):$/;"	m	class:Document
+__init__	sbd/core/Document.py~	/^    def __init__(self):$/;"	m	class:Document
+__init__	sbd/core/Token.py	/^    def __init__(self, id = -1, value = '', type = '', pos = '', eoe = False, eos = False):$/;"	m	class:Token
+__init__	sbd/core/Token.py~	/^    def __init__(self, id = -1, value = '', type = '', pos = '', eoe = False, eos = False):$/;"	m	class:Token
+__init__	sbd/core/Tokenizer.py	/^    def __init__(self):$/;"	m	class:Tokenizer
+__init__	sbd/core/Tokenizer.py~	/^    def __init__(self):$/;"	m	class:Tokenizer
+__init__	sbd/detector/Heuristic.py	/^    def __init__(self):$/;"	m	class:Heuristic
+__init__	sbd/detector/Heuristic.py~	/^    def __init__(self):$/;"	m	class:Heuristic
+__init__	sbd/detector/Probabilistic.py	/^    def __init__(self):$/;"	m	class:Probabilistic
+__init__	sbd/detector/Probabilistic.py~	/^    def __init__(self):$/;"	m	class:Probabilistic
+__init__	sbd/util/Directory.py	/^    def __init__(self):$/;"	m	class:Directory
+__init__	sbd/util/Directory.py~	/^    def __init__(self):$/;"	m	class:Directory
+__init__	sbd/util/Util.py	/^    def __init__(self):$/;"	m	class:Common
+__init__	sbd/util/Util.py	/^    def __init__(self, filename):$/;"	m	class:Reader
+__init__	sbd/util/Util.py~	/^    def __init__(self):$/;"	m	class:Common
+__init__	sbd/util/Util.py~	/^    def __init__(self, filename):$/;"	m	class:Reader
+__init__	sbd/weka/J48.py	/^    def __init__(self, model=None, arff=None):$/;"	m	class:DecisionTree
+_debug	sbd/util/Util.py	/^    def _debug(*args):$/;"	m	class:Logger
+_debug	sbd/util/Util.py~	/^    def _debug(*args):$/;"	m	class:Logger
+_error	sbd/util/Util.py	/^    def _error(*args):$/;"	m	class:Logger
+_error	sbd/util/Util.py~	/^    def _error(*args):$/;"	m	class:Logger
+_info	sbd/util/Util.py	/^    def _info(*args):$/;"	m	class:Logger
+_info	sbd/util/Util.py~	/^    def _info(*args):$/;"	m	class:Logger
+add	sbd/core/Document.py	/^    def add(self, token):$/;"	m	class:Document
+add	sbd/core/Document.py~	/^    def add(self, token):$/;"	m	class:Document
+add_maxent_parameter	sbd/detector/Probabilistic.py	/^    def add_maxent_parameter(self, buf, i, property):$/;"	m	class:Probabilistic
+add_maxent_parameter	sbd/detector/Probabilistic.py~	/^    def add_maxent_parameter(self, buf, i, property):$/;"	m	class:Probabilistic
+add_weka_parameter	sbd/detector/Probabilistic.py	/^    def add_weka_parameter(self, buf, property):$/;"	m	class:Probabilistic
+add_weka_parameter	sbd/detector/Probabilistic.py~	/^    def add_weka_parameter(self, buf, property):$/;"	m	class:Probabilistic
+build	sbd/core/Dictionary.py	/^    def build(self, path):$/;"	m	class:Dictionary
+build	sbd/core/Dictionary.py~	/^    def build(self, path):$/;"	m	class:Dictionary
+build_model	sbd/weka/J48.py	/^    def build_model(self, data):$/;"	m	class:DecisionTree
+check	sbd/detector/Heuristic.py	/^    def check(self, prev, curr, next):$/;"	m	class:Heuristic
+check	sbd/detector/Heuristic.py~	/^    def check(self, prev, curr, next):$/;"	m	class:Heuristic
+classifyInstance	sbd/weka/J48.py	/^    def classifyInstance(self, instance):$/;"	m	class:DecisionTree
+debug	sbd/core/Token.py	/^    def debug(self):$/;"	m	class:Token
+debug	sbd/core/Token.py~	/^    def debug(self):$/;"	m	class:Token
+debug	sbd/detector/Heuristic.py	/^    def debug(self):$/;"	m	class:Heuristic
+debug	sbd/detector/Heuristic.py~	/^    def debug(self):$/;"	m	class:Heuristic
+debug	sbd/detector/Probabilistic.py	/^    def debug(self, document, maxent_use=False, skip_print=False):$/;"	m	class:Probabilistic
+debug	sbd/detector/Probabilistic.py~	/^    def debug(self, document, maxent_use=False, skip_print=False):$/;"	m	class:Probabilistic
+detect	sbd/detector/Heuristic.py	/^    def detect(self, document, dict=None, classifier=None, syllable_length=0, merged_use=False):$/;"	m	class:Heuristic
+detect	sbd/detector/Heuristic.py~	/^    def detect(self, document, dict=None, classifier=None, syllable_length=0, merged_use=False):$/;"	m	class:Heuristic
+detect	sbd/detector/Probabilistic.py	/^    def detect(self, document, dict, classifier=util.Common.MAXENT, syllable_length=0, merged_use=False):$/;"	m	class:Probabilistic
+detect	sbd/detector/Probabilistic.py~	/^    def detect(self, document, dict, classifier=util.Common.MAXENT, syllable_length=0, merged_use=False):$/;"	m	class:Probabilistic
+evaluate	sbd/detector/Heuristic.py	/^    def evaluate(self):$/;"	m	class:Heuristic
+evaluate	sbd/detector/Heuristic.py~	/^    def evaluate(self):$/;"	m	class:Heuristic
+exit	sbd/weka/J48.py	/^def exit(err=None):$/;"	f
+filter	sbd/core/Token.py	/^    def filter(self, value):$/;"	m	class:Token
+filter	sbd/core/Token.py~	/^    def filter(self, value):$/;"	m	class:Token
+getCurrentTokenProb	sbd/core/Dictionary.py	/^    def getCurrentTokenProb(self, key):$/;"	m	class:Dictionary
+getCurrentTokenProb	sbd/core/Dictionary.py~	/^    def getCurrentTokenProb(self, key):$/;"	m	class:Dictionary
+getMergedSyllableProb	sbd/core/Dictionary.py	/^    def getMergedSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getMergedSyllableProb	sbd/core/Dictionary.py~	/^    def getMergedSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getPrefixSyllableProb	sbd/core/Dictionary.py	/^    def getPrefixSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getPrefixSyllableProb	sbd/core/Dictionary.py~	/^    def getPrefixSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getPrefixTokenProb	sbd/core/Dictionary.py	/^    def getPrefixTokenProb(self, key):$/;"	m	class:Dictionary
+getPrefixTokenProb	sbd/core/Dictionary.py~	/^    def getPrefixTokenProb(self, key):$/;"	m	class:Dictionary
+getProbOfDict	sbd/core/Dictionary.py	/^    def getProbOfDict(self, dict, section, key):$/;"	m	class:Dictionary
+getProbOfDict	sbd/core/Dictionary.py~	/^    def getProbOfDict(self, dict, section, key):$/;"	m	class:Dictionary
+getSuffixSyllableProb	sbd/core/Dictionary.py	/^    def getSuffixSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getSuffixSyllableProb	sbd/core/Dictionary.py~	/^    def getSuffixSyllableProb(self, key, size=1):$/;"	m	class:Dictionary
+getSuffixTokenProb	sbd/core/Dictionary.py	/^    def getSuffixTokenProb(self, key):$/;"	m	class:Dictionary
+getSuffixTokenProb	sbd/core/Dictionary.py~	/^    def getSuffixTokenProb(self, key):$/;"	m	class:Dictionary
+get_false	sbd/util/Util.py	/^    def get_false(self):$/;"	m	class:Common
+get_false	sbd/util/Util.py~	/^    def get_false(self):$/;"	m	class:Common
+get_true	sbd/util/Util.py	/^    def get_true(self, type, c):$/;"	m	class:Common
+get_true	sbd/util/Util.py~	/^    def get_true(self, type, c):$/;"	m	class:Common
+getlist	sbd/util/Directory.py	/^    def getlist(self):$/;"	m	class:Directory
+getlist	sbd/util/Directory.py~	/^    def getlist(self):$/;"	m	class:Directory
+init	sbd/core/Dictionary.py	/^    def init(self, dictname):$/;"	m	class:Dictionary
+init	sbd/core/Dictionary.py~	/^    def init(self, dictname):$/;"	m	class:Dictionary
+isCandidate	sbd/core/Token.py	/^    def isCandidate(self):$/;"	m	class:Token
+isCandidate	sbd/core/Token.py~	/^    def isCandidate(self):$/;"	m	class:Token
+isCloseParenthesis	sbd/core/Token.py	/^    def isCloseParenthesis(self, i = -1):$/;"	m	class:Token
+isCloseParenthesis	sbd/core/Token.py~	/^    def isCloseParenthesis(self, i = -1):$/;"	m	class:Token
+isDoubleQuote	sbd/core/Token.py	/^    def isDoubleQuote(self):$/;"	m	class:Token
+isDoubleQuote	sbd/core/Token.py~	/^    def isDoubleQuote(self):$/;"	m	class:Token
+isEllipsis	sbd/core/Token.py	/^    def isEllipsis(self):$/;"	m	class:Token
+isEllipsis	sbd/core/Token.py~	/^    def isEllipsis(self):$/;"	m	class:Token
+isEnglish	sbd/core/Token.py	/^    def isEnglish(self):$/;"	m	class:Token
+isEnglish	sbd/core/Token.py~	/^    def isEnglish(self):$/;"	m	class:Token
+isEoe	sbd/core/Token.py	/^    def isEoe(self):$/;"	m	class:Token
+isEoe	sbd/core/Token.py~	/^    def isEoe(self):$/;"	m	class:Token
+isEos	sbd/core/Token.py	/^    def isEos(self):$/;"	m	class:Token
+isEos	sbd/core/Token.py~	/^    def isEos(self):$/;"	m	class:Token
+isExclamation	sbd/core/Token.py	/^    def isExclamation(self):$/;"	m	class:Token
+isExclamation	sbd/core/Token.py~	/^    def isExclamation(self):$/;"	m	class:Token
+isGreaterThan	sbd/core/Token.py	/^    def isGreaterThan(self):$/;"	m	class:Token
+isGreaterThan	sbd/core/Token.py~	/^    def isGreaterThan(self):$/;"	m	class:Token
+isHanguel	sbd/core/Token.py	/^    def isHanguel(self):$/;"	m	class:Token
+isHanguel	sbd/core/Token.py~	/^    def isHanguel(self):$/;"	m	class:Token
+isHanja	sbd/core/Token.py	/^    def isHanja(self):$/;"	m	class:Token
+isHanja	sbd/core/Token.py~	/^    def isHanja(self):$/;"	m	class:Token
+isLesserThan	sbd/core/Token.py	/^    def isLesserThan(self):$/;"	m	class:Token
+isLesserThan	sbd/core/Token.py~	/^    def isLesserThan(self):$/;"	m	class:Token
+isNumeric	sbd/core/Token.py	/^    def isNumeric(self):$/;"	m	class:Token
+isNumeric	sbd/core/Token.py~	/^    def isNumeric(self):$/;"	m	class:Token
+isOpenParenthesis	sbd/core/Token.py	/^    def isOpenParenthesis(self, i = -1):$/;"	m	class:Token
+isOpenParenthesis	sbd/core/Token.py~	/^    def isOpenParenthesis(self, i = -1):$/;"	m	class:Token
+isParenthesis	sbd/core/Token.py	/^    def isParenthesis(self, i = -1):$/;"	m	class:Token
+isParenthesis	sbd/core/Token.py~	/^    def isParenthesis(self, i = -1):$/;"	m	class:Token
+isPeriod	sbd/core/Token.py	/^    def isPeriod(self):$/;"	m	class:Token
+isPeriod	sbd/core/Token.py~	/^    def isPeriod(self):$/;"	m	class:Token
+isPunctuation	sbd/core/Token.py	/^    def isPunctuation(self, exceptSpace=False):$/;"	m	class:Token
+isPunctuation	sbd/core/Token.py~	/^    def isPunctuation(self, exceptSpace=False):$/;"	m	class:Token
+isQuestion	sbd/core/Token.py	/^    def isQuestion(self):$/;"	m	class:Token
+isQuestion	sbd/core/Token.py~	/^    def isQuestion(self):$/;"	m	class:Token
+isQuote	sbd/core/Token.py	/^    def isQuote(self):$/;"	m	class:Token
+isQuote	sbd/core/Token.py~	/^    def isQuote(self):$/;"	m	class:Token
+isSingleQuote	sbd/core/Token.py	/^    def isSingleQuote(self):$/;"	m	class:Token
+isSingleQuote	sbd/core/Token.py~	/^    def isSingleQuote(self):$/;"	m	class:Token
+isSlash	sbd/core/Token.py	/^    def isSlash(self):$/;"	m	class:Token
+isSlash	sbd/core/Token.py~	/^    def isSlash(self):$/;"	m	class:Token
+isSpecial	sbd/core/Token.py	/^    def isSpecial(self):$/;"	m	class:Token
+isSpecial	sbd/core/Token.py~	/^    def isSpecial(self):$/;"	m	class:Token
+isUnknown	sbd/core/Token.py	/^    def isUnknown(self):$/;"	m	class:Token
+isUnknown	sbd/core/Token.py~	/^    def isUnknown(self):$/;"	m	class:Token
+is_pos_hg	sbd/util/Util.py	/^    def is_pos_hg(self, c): # 한글 ==> 가 ... 힣$/;"	m	class:Common
+is_pos_hg	sbd/util/Util.py~	/^    def is_pos_hg(self, c): # 한글 ==> 가 ... 힣$/;"	m	class:Common
+is_pos_jm	sbd/util/Util.py	/^    def is_pos_jm(self, c):$/;"	m	class:Common
+is_pos_jm	sbd/util/Util.py~	/^    def is_pos_jm(self, c):$/;"	m	class:Common
+is_pos_sf	sbd/util/Util.py	/^    def is_pos_sf(self, c): # 마침표 ==> . ? !$/;"	m	class:Common
+is_pos_sf	sbd/util/Util.py~	/^    def is_pos_sf(self, c): # 마침표 ==> . ? !$/;"	m	class:Common
+is_pos_sh	sbd/util/Util.py	/^    def is_pos_sh(self, c): # 한자$/;"	m	class:Common
+is_pos_sh	sbd/util/Util.py~	/^    def is_pos_sh(self, c): # 한자$/;"	m	class:Common
+is_pos_si	sbd/util/Util.py	/^    def is_pos_si(self, c): # 드러냄표 ˙$/;"	m	class:Common
+is_pos_si	sbd/util/Util.py~	/^    def is_pos_si(self, c): # 드러냄표 ˙$/;"	m	class:Common
+is_pos_sj	sbd/util/Util.py	/^    def is_pos_sj(self, c): # 안드러냄표 × ○ □ …$/;"	m	class:Common
+is_pos_sj	sbd/util/Util.py~	/^    def is_pos_sj(self, c): # 안드러냄표 × ○ □ …$/;"	m	class:Common
+is_pos_sl	sbd/util/Util.py	/^    def is_pos_sl(self, c): # 영문자$/;"	m	class:Common
+is_pos_sl	sbd/util/Util.py~	/^    def is_pos_sl(self, c): # 영문자$/;"	m	class:Common
+is_pos_sm	sbd/util/Util.py	/^    def is_pos_sm(self, c): # 묶음표 ==> ( { [ ) } ]$/;"	m	class:Common
+is_pos_sm	sbd/util/Util.py~	/^    def is_pos_sm(self, c): # 묶음표 ==> ( { [ ) } ]$/;"	m	class:Common
+is_pos_sn	sbd/util/Util.py	/^    def is_pos_sn(self, c): # 숫자$/;"	m	class:Common
+is_pos_sn	sbd/util/Util.py~	/^    def is_pos_sn(self, c): # 숫자$/;"	m	class:Common
+is_pos_so	sbd/util/Util.py	/^    def is_pos_so(self, c): # 이음표 ==> － - ∼ ~$/;"	m	class:Common
+is_pos_so	sbd/util/Util.py~	/^    def is_pos_so(self, c): # 이음표 ==> － - ∼ ~$/;"	m	class:Common
+is_pos_sp	sbd/util/Util.py	/^    def is_pos_sp(self, c): # 쉼표 ==> , · : \/$/;"	m	class:Common
+is_pos_sp	sbd/util/Util.py~	/^    def is_pos_sp(self, c): # 쉼표 ==> , · : \/$/;"	m	class:Common
+is_pos_ss	sbd/util/Util.py	/^    def is_pos_ss(self, c): # 따옴표 ==> ' "$/;"	m	class:Common
+is_pos_ss	sbd/util/Util.py~	/^    def is_pos_ss(self, c): # 따옴표 ==> ' "$/;"	m	class:Common
+is_pos_sw	sbd/util/Util.py	/^    def is_pos_sw(self, c): # 기타기호 ===> # $ % & * + ; < = > @$/;"	m	class:Common
+is_pos_sw	sbd/util/Util.py~	/^    def is_pos_sw(self, c): # 기타기호 ===> # $ % & * + ; < = > @$/;"	m	class:Common
+is_pos_type	sbd/util/Util.py	/^    def is_pos_type(self, s):$/;"	m	class:Common
+is_pos_type	sbd/util/Util.py~	/^    def is_pos_type(self, s):$/;"	m	class:Common
+is_pos_uk	sbd/util/Util.py	/^    def is_pos_uk(self, c): # 미지기호 ==> ‰ ‱   ※ ... ⵥ$/;"	m	class:Common
+is_pos_uk	sbd/util/Util.py~	/^    def is_pos_uk(self, c): # 미지기호 ==> ‰ ‱   ※ ... ⵥ$/;"	m	class:Common
+is_pos_xx	sbd/util/Util.py	/^    def is_pos_xx(self, c): # 공백$/;"	m	class:Common
+is_pos_xx	sbd/util/Util.py~	/^    def is_pos_xx(self, c): # 공백$/;"	m	class:Common
+length	sbd/core/Document.py	/^    def length(self):$/;"	m	class:Document
+length	sbd/core/Document.py~	/^    def length(self):$/;"	m	class:Document
+load	sbd/core/Dictionary.py	/^    def load(self, dictname):$/;"	m	class:Dictionary
+load	sbd/core/Dictionary.py~	/^    def load(self, dictname):$/;"	m	class:Dictionary
+load_arff	sbd/weka/J48.py	/^    def load_arff(self, arff):$/;"	m	class:DecisionTree
+load_model	sbd/weka/J48.py	/^    def load_model(self, model, arff):$/;"	m	class:DecisionTree
+name_of_pos	sbd/util/Util.py	/^    def name_of_pos(self, token):$/;"	m	class:Common
+name_of_pos	sbd/util/Util.py~	/^    def name_of_pos(self, token):$/;"	m	class:Common
+name_of_type	sbd/util/Util.py	/^    def name_of_type(self, token):$/;"	m	class:Common
+name_of_type	sbd/util/Util.py~	/^    def name_of_type(self, token):$/;"	m	class:Common
+next	sbd/core/Document.py	/^    def next(self, id):$/;"	m	class:Document
+next	sbd/core/Document.py~	/^    def next(self, id):$/;"	m	class:Document
+nextCandidateDist	sbd/core/Document.py	/^    def nextCandidateDist(self, id):$/;"	m	class:Document
+nextCandidateDist	sbd/core/Document.py~	/^    def nextCandidateDist(self, id):$/;"	m	class:Document
+nextPunctuationDist	sbd/core/Document.py	/^    def nextPunctuationDist(self, id):$/;"	m	class:Document
+nextPunctuationDist	sbd/core/Document.py~	/^    def nextPunctuationDist(self, id):$/;"	m	class:Document
+parse	sbd/core/Document.py	/^    def parse(self):$/;"	m	class:Document
+parse	sbd/core/Document.py~	/^    def parse(self):$/;"	m	class:Document
+parse	sbd/core/Tokenizer.py	/^    def parse(self, eojeol): # 어절단위 유니코드 파싱$/;"	m	class:Tokenizer
+parse	sbd/core/Tokenizer.py~	/^    def parse(self, eojeol): # 어절단위 유니코드 파싱$/;"	m	class:Tokenizer
+prev	sbd/core/Document.py	/^    def prev(self, id):$/;"	m	class:Document
+prev	sbd/core/Document.py~	/^    def prev(self, id):$/;"	m	class:Document
+prevCandidateDist	sbd/core/Document.py	/^    def prevCandidateDist(self, id):$/;"	m	class:Document
+prevCandidateDist	sbd/core/Document.py~	/^    def prevCandidateDist(self, id):$/;"	m	class:Document
+prevPunctuationDist	sbd/core/Document.py	/^    def prevPunctuationDist(self, id):$/;"	m	class:Document
+prevPunctuationDist	sbd/core/Document.py~	/^    def prevPunctuationDist(self, id):$/;"	m	class:Document
+printUsage	sbd/util/Util.py	/^    def printUsage(message, length=60):$/;"	m	class:Formatter
+printUsage	sbd/util/Util.py~	/^    def printUsage(message, length=60):$/;"	m	class:Formatter
+print_instance	sbd/weka/J48.py	/^    def print_instance(self, data):$/;"	m	class:DecisionTree
+print_this	sbd/weka/J48.py	/^    def print_this(self):$/;"	m	class:DecisionTree
+print_usage	sbd/util/Directory.py	/^def print_usage():$/;"	f
+print_usage	sbd/util/Directory.py~	/^def print_usage():$/;"	f
+print_usage	sbd/weka/J48.py	/^def print_usage():$/;"	f
+println	sbd/util/Directory.py	/^    def println(self, filename, index):$/;"	m	class:Directory
+println	sbd/util/Directory.py~	/^    def println(self, filename, index):$/;"	m	class:Directory
+printnull	sbd/util/Directory.py	/^    def printnull(self, filename, index):$/;"	m	class:Directory
+printnull	sbd/util/Directory.py~	/^    def printnull(self, filename, index):$/;"	m	class:Directory
+read	sbd/util/Util.py	/^    def read(self):$/;"	m	class:Reader
+read	sbd/util/Util.py~	/^    def read(self):$/;"	m	class:Reader
+search	sbd/core/Dictionary.py	/^    def search(self, dictname, key):$/;"	m	class:Dictionary
+search	sbd/core/Dictionary.py~	/^    def search(self, dictname, key):$/;"	m	class:Dictionary
+simplify_prob	sbd/detector/Probabilistic.py	/^    def simplify_prob(self, prob):$/;"	m	class:Probabilistic
+simplify_prob	sbd/detector/Probabilistic.py~	/^    def simplify_prob(self, prob):$/;"	m	class:Probabilistic
+statinfo	sbd/detector/Heuristic.py	/^    def statinfo(self):$/;"	m	class:Heuristic
+statinfo	sbd/detector/Heuristic.py~	/^    def statinfo(self):$/;"	m	class:Heuristic
+statinfo	sbd/detector/Probabilistic.py	/^    def statinfo(self, document, pattern):$/;"	m	class:Probabilistic
+statinfo	sbd/detector/Probabilistic.py~	/^    def statinfo(self, document, pattern):$/;"	m	class:Probabilistic
+stokenize	sbd/core/Tokenizer.py	/^    def stokenize(self, stream):$/;"	m	class:Tokenizer
+stokenize	sbd/core/Tokenizer.py~	/^    def stokenize(self, stream):$/;"	m	class:Tokenizer
+syllable	sbd/core/Token.py	/^    def syllable(self, offset=0):$/;"	m	class:Token
+syllable	sbd/core/Token.py~	/^    def syllable(self, offset=0):$/;"	m	class:Token
+token	sbd/core/Document.py	/^    def token(self, id):$/;"	m	class:Document
+token	sbd/core/Document.py~	/^    def token(self, id):$/;"	m	class:Document
+tokenize	sbd/core/Tokenizer.py	/^    def tokenize(self, file):$/;"	m	class:Tokenizer
+tokenize	sbd/core/Tokenizer.py~	/^    def tokenize(self, file):$/;"	m	class:Tokenizer
+traverse	sbd/util/Directory.py	/^    def traverse(self, directory, ext, function, end):$/;"	m	class:Directory
+traverse	sbd/util/Directory.py~	/^    def traverse(self, directory, ext, function, end):$/;"	m	class:Directory
