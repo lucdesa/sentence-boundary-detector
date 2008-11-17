@@ -1,0 +1,8 @@
+iconv.sh		: iconv.sh 입력폴더 출력폴더
+merge.sh		: merge.sh 입력폴더 출력파일
+Conversion.py		: python Conversion.py filename
+FileCopy.py		: python FileCopy.py 입력폴더 출력폴더 확장자
+Folder.py		: 임의의 파일을 N폴딩하여 학습파일을 생성해주는 프로그램
+RegularExpression.py
+Split.py		: 임의의 파일을 N개의 파일로(0~9.split) 생성해주는 프로그램
+StatInfo.py
