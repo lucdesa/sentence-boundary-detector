@@ -282,6 +282,8 @@ if __name__ == '__main__':
         
         if functype == 'eval':
             sbd.summary()
+        elif functype == 'seg' and line != '':
+            print line.strip() + '\n'
 
     except:
         traceback.print_exc(file=sys.stderr)
