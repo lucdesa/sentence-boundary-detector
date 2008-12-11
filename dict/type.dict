@@ -1,0 +1,46 @@
+1105108 current_False_영문자
+1062102 prefix_False_영문자
+1057768 suffix_False_영문자
+  85953 suffix_False_마침표
+  83476 prefix_False_마침표
+  73038 suffix_False_쉼표
+  72982 prefix_False_쉼표
+  72826 current_False_쉼표
+  51380 current_False_숫자
+  51329 suffix_False_숫자
+  48928 prefix_False_숫자
+  48053 suffix_True_영문자
+  46287 current_True_마침표
+  43725 prefix_True_영문자
+  39667 current_False_마침표
+  38743 prefix_False_따옴표
+  37483 suffix_False_따옴표
+  36529 current_False_따옴표
+  20488 prefix_False_이음표
+  20472 current_False_이음표
+  20321 suffix_False_이음표
+  20163 current_False_기타기호
+  20151 suffix_False_기타기호
+  19479 prefix_False_기타기호
+   3800 suffix_False_묶음표
+   3698 current_False_묶음표
+   3635 prefix_False_묶음표
+   2472 prefix_True_마침표
+   2470 prefix_True_숫자
+   2272 current_True_따옴표
+   1317 suffix_True_따옴표
+    721 current_True_영문자
+    699 prefix_True_기타기호
+    240 prefix_True_묶음표
+    212 current_True_쉼표
+    177 current_True_묶음표
+    171 suffix_True_이음표
+     75 suffix_True_묶음표
+     69 suffix_True_숫자
+     56 prefix_True_쉼표
+     56 prefix_True_따옴표
+     27 suffix_True_기타기호
+     20 current_True_이음표
+     18 current_True_숫자
+     15 current_True_기타기호
+      4 prefix_True_이음표
