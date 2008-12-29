@@ -14,6 +14,9 @@ class Document:
     def add(self, token):
         self.tokens.append(token)
 
+    def clear(self):
+        del self.tokens[:]
+
     def length(self):
         return len(self.tokens)
 
