@@ -237,8 +237,7 @@ def getPrevNValue(docucment, id):
 
 def print_usage():
     print "python BatchSBD.py [dictpath] [modelname] [syllable_length] [merged_yn] [ignore_case_yn] [threshold] [config] [fileid]"
-    print "python BatchSBD.py dict/sejong model/maxent.model 1 yes no 0.8 config 1"
-    print "python BatchSBD.py dict/pentree model/maxent.model 0 no yes 0.8 config 1"
+    print "python BatchSBD.py dict model/maxent.model 1 yes no 0.98 ./config 00000"
 
 def exit(msg):
     print msg
