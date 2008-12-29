@@ -10,6 +10,12 @@ class Tokenizer:
         self.tokens = []
         self.util = util.Common()
 
+    def __del__(self):
+        self.clear()
+
+    def clear(self):
+        del self.tokens[:]
+
     def parse(self, eojeol): # 어절단위 유니코드 파싱
         util = self.util
         POS_FUNC = [ \
