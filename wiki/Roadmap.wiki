@@ -1,5 +1,8 @@
 #summary Roadmap for future development
 
+Wikipedia said:
+  [http://en.wikipedia.org/wiki/Sentence_boundary_disambiguation Sentence boundary disambiguation] (SBD) is the problem in natural language processing of deciding where the beginning and ends of sentences are.
+
 = Roadmap =
 This page describes Sentence Boundary Detector's release policy
 
